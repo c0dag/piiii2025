@@ -9,8 +9,7 @@
 // Configurações WiFi
 const char* ssid = "teste";
 const char* password = "12345678";
-const char* server_url = "http://192.168.100.165:8080/api/sensors";  // Altere para o endereço IP do seu servidor
-
+const char* server_url = "http://192.168.100.165:8080/api/sensors"; 
 int lastState = HIGH;
 int currentState;
 unsigned long lastSendTime = 0;
